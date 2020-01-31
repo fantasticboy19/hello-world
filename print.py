@@ -1,8 +1,9 @@
-import os
+import sys
 path = 'c:\user\desktop\hello'
 for i in os.listdir(path):
     print(i)
-print('os.path')
+#sys.path is a list!
+print('sys.path')
 os.path.append('c:\user\desktop\hello.exe')
 
 class baseNet(nn.Module){
